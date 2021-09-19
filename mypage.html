@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="navbar">
+        <div id="navbar_logo">
+            <a href="index.html"><img src="mutstudy_logo.jpg"></a>
+        </div>
+        <div id="navbar_function">
+            <a href=""><div class="navbar_function" id="study_find"><i class="fas fa-search"></i>스터디 찾기</div></a>
+            <a href=""><div class="navbar_function" id="study_make"><i class="fas fa-edit"></i>스터디 만들기</div></a>
+            <a href=""><div class="navbar_function" id="mypage"><i class="far fa-user"></i>마이 페이지</div></a>
+        </div>
+        <div id="navbar_account">
+            <i class="fas fa-sign-in-alt fa-lg"></i>
+            <div id="navbar_account_content">
+                <div id="navbar_account_content_list">
+                    <a href=""><div class="navbar_account_content_list navbar_account_content_list_login">로그인</div></a>
+                    <a href=""><div class="navbar_account_content_list navbar_account_content_list_signup">회원가입</div></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="mypage" style="padding: 4% 8%;">
+        <div id="mypage_left" style="display: flex; justify-content: space-between;">
+            <div id="profile" style="text-align: center;">
+                <div style="padding: 50px; border-radius: 50%; border: 1px solid black;">
+                    <img src="mutstudy_intro.jpg" width="200px" height="200px">
+                </div>
+                <div style="margin: 20px 0px;">안녕하세요. 허윤회입니다.</div>
+                <button style="padding: 6px 32px; background-color: skyblue; border-radius: 20px;">프로필 수정</button>
+                <div id="follow" style="margin: 20px 0px;">
+                    <div style="display: flex; justify-content: space-between; padding: 0px 20px;">
+                        <div id="follower" style="border-bottom: 1px solid skyblue;">10 follower</div>
+                        <div id="following" style="border-bottom: 1px solid skyblue;">12 following</div>
+                    </div>
+                    <div id="follower_list" style="display: none;">
+                        <br>팔로우 명단<br>
+                        <br>{{허윤회}}
+                        <br>{{follower}}
+                        <br>{{허윤회}}
+                        <br>{{follower}}
+                    </div>
+                    <div id="following_list" style="display: none;">
+                        <br>팔로잉 명단<br>
+                        <br>{{following}}
+                        <br>{{허윤회}}
+                        <br>{{follower}}
+                        <br>{{허윤회}}
+                    </div>
+                </div>
+            </div>
+            <div id="mypage_right">
+                <div style="font-size: 32px; font-weight: bold; text-align: center;">MY 스터디</div>
+                <div style="display: flex; margin-top: 40px;">
+                    <div style="display: inline-block; width: 240px; height: 135px; border-radius: 10px; margin: 0px 10px; border: 1px solid black;">스터디1</div>
+                    <div style="display: inline-block; width: 240px; height: 135px; border-radius: 10px; margin: 0px 10px; border: 1px solid black;">스터디2</div>
+                    <div style="display: inline-block; width: 240px; height: 135px; border-radius: 10px; margin: 0px 10px; border: 1px solid black;">스터디3</div>
+                </div>
+                <div style="display: flex; margin-top: 40px;">
+                    <div style="display: inline-block; width: 240px; height: 135px; border-radius: 10px; margin: 0px 10px; border: 1px solid black;">스터디4</div>
+                    <div style="display: inline-block; width: 240px; height: 135px; border-radius: 10px; margin: 0px 10px; border: 1px solid black;">스터디5</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div id="footer_logo">
+            <a href="index.html"><img src="mutstudy_logo.jpg"></a>
+        </div>
+        <div id="footer_function">
+            <i class="far fa-question-circle">문의사항: dbsghl123@naver.com</i>
+        </div>
+        <div id="footer_instagram">
+            <i class="fab fa-instagram fa-lg"></i>
+        </div>
+    </div>
+    <script src="main.js" crossorigin="anonymous"></script>
+</body>
+</html>
