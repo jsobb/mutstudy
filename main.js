@@ -1,17 +1,21 @@
 const menuBar = document.querySelector("#navbar_account i");
 menuBar.addEventListener("click", menuList);
 function menuList(){
-    console.log("hi");
     const menuList = document.querySelector("#navbar_account_content");
 
     if(menuList.style.display === "none"){
         menuList.style.display = "block";
+        menuList.style.animation = "1s ease-in-out menuHello";
     }
     else if(menuList.style.display === "block"){
-        menuList.style.display = "none";
+        menuList.style.animation = "1s ease-in-out menuBye";
+        setTimeout(function(){
+            menuList.style.display = "none";
+        }, 1000);
     }
     else{
         menuList.style.display = "block";
+        menuList.style.animation = "1s ease-in-out menuHello";
     }
 }
 
@@ -22,42 +26,16 @@ function showFriend(){
     const friendList = document.querySelector("#content_friend");
     if(friendList.style.display === "none"){
         friendList.style.display = "block";
+        friendList.style.animation = "1s ease-in-out menuHello";
     }
     else if(friendList.style.display === "block"){
-        friendList.style.display = "none";
+        friendList.style.animation = "1s ease-in-out menuBye";
+        setTimeout(function(){
+            friendList.style.display = "none";
+        }, 1000);
     }
     else{
         friendList.style.display = "block";
+        friendList.style.animation = "1s ease-in-out menuHello";
     }
 }
-
-// const follower = document.querySelector("#follower");
-// const following = document.querySelector("#following");
-
-// follower.addEventListener("click", showFollower);
-// following.addEventListener("click", showFollowing);
-
-// function showFollower(){
-//     const followerList = document.querySelector("#follower_list");
-//     const followingList = document.querySelector("#following_list");
-//     if(followerList.style.display === "block"){
-//         followerList.style.display = "none";
-//     }
-//     else{
-//         followerList.style.display = "block";
-//         followingList.style.display = "none";
-//     }
-// }
-
-// function showFollowing(){
-//     const followerList = document.querySelector("#follower_list");
-//     const followingList = document.querySelector("#following_list");
-//     if(followingList.style.display === "block"){
-//         followingList.style.display = "none";
-//     }
-//     else{
-//         followerList.style.display = "none";
-//         followingList.style.display = "block";
-//     }
-//     console.log("showFollowing");
-// }
