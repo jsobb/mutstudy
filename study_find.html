@@ -16,7 +16,7 @@
         <div id="navbar_function">
             <a href="study_find.html"><div class="navbar_function" id="study_find"><i class="fas fa-search"></i>스터디 찾기</div></a>
             <a href=""><div class="navbar_function" id="study_make"><i class="fas fa-edit"></i>스터디 만들기</div></a>
-            <a href=""><div class="navbar_function" id="study_mypage"><i class="far fa-user"></i>마이 페이지</div></a>
+            <a href="mypage.html"><div class="navbar_function" id="study_mypage"><i class="far fa-user"></i>마이 페이지</div></a>
         </div>
         <div id="navbar_account">
             <i class="fas fa-sign-in-alt fa-lg"></i>
@@ -28,38 +28,40 @@
             </div>
         </div>
     </div>
-    <div id="mypage">
-        <div id="mypage_left">
-            <div id="mypage_left_profile">
-                <div id="mypage_left_profile_image_box">
-                    <img src="mutstudy_intro.jpg">
-                </div>
-                <div id="mypage_left_profile_status">안녕하세요. 허윤회입니다.</div>
-                <button id="mypage_left_profile_button">프로필 수정</button>
-                <div id="mypage_left_relationship">
-                    <div id="mypage_left_relationship_choice">
-                        <div id="mypage_left_relationship_choice_follower">10 follower</div>
-                        <div id="mypage_left_relationship_choice_following">12 following</div>
-                    </div>
-                    <div id="mypage_left_relationship_choice_follower_list">
-                        <br>팔로우 명단<br>
-                        <br>{{허윤회}}
-                        <br>{{follower}}
-                        <br>{{허윤회}}
-                        <br>{{follower}}
-                    </div>
-                    <div id="mypage_left_relationship_choice_following_list">
-                        <br>팔로잉 명단<br>
-                        <br>{{following}}
-                        <br>{{허윤회}}
-                        <br>{{follower}}
-                        <br>{{허윤회}}
-                    </div>
-                </div>
+    <div id="study_find">
+        <div id="study_find_first">
+            <div id="study_find_first_container">
+                <select>
+                    <option>스터디룸 이름으로 검색</option>
+                    <option>스터디장 이름으로 검색</option>
+                </select>
+                <input type="search">
+                <button><i class="fas fa-search fa-2x"></i></button>
             </div>
         </div>
-        <div id="mypage_right">
-            <div id="mypage_right_title">MY 스터디</div>
+        <div id="study_find_second">
+            <div id="study_find_second_button">스터디 태그&nbsp;<i id="study_find_second_button_icon" class="fas fa-arrow-down"></i></div>
+            <div id="study_find_second_container_big">
+                <div id="study_find_second_container_big_tag">대태그1</div>
+                <div id="study_find_second_container_big_tag">대태그2</div>
+                <div id="study_find_second_container_big_tag">대태그3</div>
+                <div id="study_find_second_container_big_tag">대태그4</div>
+                <div id="study_find_second_container_big_tag">대태그5</div>
+                <div id="study_find_second_container_big_tag">대태그6</div>
+                <div id="study_find_second_container_big_tag">대태그7</div>
+                <div id="study_find_second_container_big_tag">대태그8</div>
+            </div>
+            <div id="study_find_second_container_small">
+                <div id="study_find_second_container_small_tag">소태그1</div>
+                <div id="study_find_second_container_small_tag">소태그2</div>
+                <div id="study_find_second_container_small_tag">소태그3</div>
+                <div id="study_find_second_container_small_tag">소태그4</div>
+                <div id="study_find_second_container_small_tag">소태그5</div>
+                <div id="study_find_second_container_small_tag">소태그6</div>
+            </div>
+        </div>
+        <div id="mypage_right" style="border: 5px solid green;">
+            <div id="mypage_right_title">검색 결과</div>
             <div id="mypage_right_container">
                 <div class="mypage_right_container">
                     <a href="">
@@ -93,17 +95,11 @@
                         <div id="mypage_right_container_boxname">[[스터디명]]</div>
                     </a>
                 </div>
-                <div class="mypage_right_container">
-                    <a href="">
-                        <div id="mypage_right_container_box">
-                            <img src="mutstudy_logo.jpg">
-                        </div>
-                        <div id="mypage_right_container_boxname">[[스터디명]]</div>
-                    </a>
-                </div>
             </div>
         </div>
     </div>
+    </div>
+    
     <div id="friend_button"><i class="fas fa-users fa-2x"></i></div>
     <div id="content_friend">
         <div id="content_friend_title">나의 스터디 친구들</div>
@@ -157,6 +153,6 @@
         </div>
     </div>
     <script src="main.js" crossorigin="anonymous"></script>
-    <script src="mypage.js" crossorigin="anonymous"></script>
+    <script src="study_find.js" crossorigin="anonymous"></script>
 </body>
 </html>

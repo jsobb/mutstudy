@@ -469,3 +469,87 @@ a{
 #mypage_right_container_box:hover{
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
+
+/*스터디 찾기*/
+#study_find{
+    /* padding: 0 8%; */
+}
+#study_find_first{
+    padding: 0 8%;
+    border: 5px solid red;
+}
+#study_find_first_container{
+    display: flex;
+    justify-content:center;
+    border: 3px solid gold;
+    border-radius: 20px;
+    padding: 20px;
+    width: 700px;
+    margin: 50px auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+#study_find_first_container select{
+    border: none;
+    font-size: 18px;
+    margin: 0 10px;
+}
+#study_find_first_container input{
+    border: none;
+    width: 600px;
+    height: 80px; 
+    margin: 0 10px;
+    font-size: 24px;
+}
+#study_find_first_container button{
+    background-color: white;
+    border: none;
+    margin: 0 10px;
+}
+#study_find_first_container button:hover{
+    font-size: larger;
+}
+#study_find_second{
+    border: 5px solid orange;
+    padding: 0 8%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#study_find_second_button{
+    border: 1px solid black;
+    width: 100px;
+    text-align: center;
+    padding: 20px;
+}
+#study_find_second_button:hover{
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+#study_find_second_container_big{
+    display: flex;
+    justify-content: center;
+}
+#study_find_second_container_big_tag{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 20px 10px;
+    background-color: skyblue;
+    opacity: .5;
+}
+#study_find_second_container_big_tag:hover{
+    opacity: .8;
+}
+#study_find_second_container_small{
+    display: flex;
+    justify-content: center;
+}
+#study_find_second_container_small_tag{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 20px 10px;
+    background-color: gold;
+    opacity: .5;
+}
+#study_find_second_container_small_tag:hover{
+    opacity: .8;
+}
