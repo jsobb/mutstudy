@@ -13,7 +13,7 @@ a{
     padding: 0% 4%;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: rgb(148, 186, 223);
+    background-color: #B4C7E7;
     border-bottom: 5px solid rgb(49, 49, 49);
     /* border: 5px solid black; */
 }
@@ -31,14 +31,14 @@ a{
     margin: 0px 24px;
 }
 .navbar_function:hover{
-    color: gold;
+    color: #FABE00;
 }
 #navbar_account{
     font-size: 24px;
     /* border: 3px solid yellow; */
 }
 #navbar_account i:hover{
-    color:gold;
+    color:#FABE00;
 }
 #navbar_account_content{
     position: absolute;
@@ -53,14 +53,14 @@ a{
     border: 1px solid black;
 }
 .navbar_account_content_list:hover{
-    background-color: gray;
+    background-color: #ddd;
 }
 /* content_first */
 #content_first{
     display: flex;
     padding: 0% 8%;
     height: 400px;
-    background-color: rgb(131, 152, 173);
+    background-color: #8D9DB5;
     /* border: 5px solid gray; */
 }
 #content_first_left{
@@ -80,7 +80,7 @@ a{
 #content_first_left_lower{
     margin-bottom: 10px;
     font-size: 1.8vw;
-    color: rgb(201, 201, 201);
+    color: #333F50;
 }
 #content_first_left_lower:last-child{
     margin-top: 20px;
@@ -95,7 +95,7 @@ a{
     opacity: .5;
 }
 #content_first_left_button:focus{
-    background-color: rgb(131, 152, 173);
+    background-color: #FABE00;
 }
 #content_first_right{
     width: 40%;
@@ -107,7 +107,7 @@ a{
 #content_first_right img{
     width: 20vw;
     height: 200px;
-    /* border: 1px solid gold; */
+    /* border: 1px solid #FABE00; */
 }
 /**/
 #content_second{
@@ -131,7 +131,7 @@ a{
     justify-content: space-between;
     margin-top: 40px;
     padding: 40px 20px;
-    background-color: rgb(92, 115, 138);
+    background-color: #D6DCE5;
     border-radius: 10px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
@@ -161,7 +161,7 @@ a{
     background-color: white;
 }
 #content_second_container_box_fourth{
-    background-color: gray;
+    background-color: #D0CECE;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -187,7 +187,7 @@ a{
     font-weight: bold;
     text-align: center;
     margin: 0 36%;
-    border-bottom: 3px solid gold;
+    border-bottom: 3px solid #FABE00;
 }
 #content_third_container{
     width: 68%;
@@ -196,9 +196,7 @@ a{
     justify-content: space-between;
     margin-top: 40px;
     padding: 40px 20px;
-    background-color: rgb(92, 115, 138);
     border-radius: 10px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 .content_third_container_box{
     width: 17vw;
@@ -246,9 +244,7 @@ a{
     justify-content: space-between;
     margin-top: 40px;
     padding: 40px 20px;
-    background-color: rgb(92, 115, 138);
     border-radius: 10px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 .content_fourth_container_box{
     width: 17vw;
@@ -286,16 +282,16 @@ a{
     align-items: center;
     position: fixed;
     right: 50px;
-    bottom: 50px;
+    bottom: 100px;
 }
 #friend_button:hover{
-    background-color: gold;
+    background-color: #FABE00;
 }
 #content_friend{
     width: 200px; 
     position:fixed;
     right: 102px;
-    bottom: 102px;
+    bottom: 152px;
     border: 3px solid black;
     background-color: rgb(148, 186, 223);
     display: none;
@@ -327,7 +323,7 @@ a{
     padding: 0% 4%;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: rgb(148, 186, 223);
+    background-color: #B4C7E7;
     border-top: 5px solid rgb(49, 49, 49);
 }
 #footer_logo{
@@ -347,7 +343,7 @@ a{
     /* border: 3px solid yellow; */
 }
 #footer_instagram i:hover{
-    color:gold;
+    color:#FABE00;
 }
 
 @keyframes menuHello{
@@ -374,14 +370,15 @@ a{
 }
 #mypage_left{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    width: 40vw;
 }
 #mypage_left_profile{
     text-align: center;
 }
 #mypage_left_profile_image_box{
-    padding: 50px;
+    padding: 30px;
     border-radius: 50%;
     border: 1px solid black;
 }
@@ -453,8 +450,8 @@ a{
 }
 #mypage_right_container_box{
     display: inline-block;
-    width: 17vw;
-    height: 12vw;
+    width: 15vw;
+    height: 10vw;
     border-radius: 10px;
     margin: 40px 0px 10px 0px;
     border: 1px solid black;
@@ -481,7 +478,7 @@ a{
 #study_find_first_container{
     display: flex;
     justify-content:center;
-    border: 3px solid gold;
+    border: 3px solid #FABE00;
     border-radius: 20px;
     padding: 20px;
     width: 700px;
@@ -547,7 +544,7 @@ a{
     border-radius: 20px;
     padding: 10px 20px;
     margin: 20px 10px;
-    background-color: gold;
+    background-color: #FABE00;
     opacity: .5;
 }
 #study_find_second_container_small_tag:hover{
@@ -599,7 +596,7 @@ a{
 #study_find_fourth_make_button{
     padding: 20px 40px;
     border-radius: 10px;
-    background-color: rgb(190, 162, 1);
+    background-color: #FABE00;
     color: white;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
