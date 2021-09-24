@@ -28,82 +28,68 @@
             </div>
         </div>
     </div>
-    <div id="mypage">
-        <div id="mypage_left">
-            <div id="mypage_left_profile">
-                <div id="mypage_left_profile_image_box">
-                    <img src="mutstudy_intro.jpg">
-                </div>
-                <div id="mypage_left_profile_status">안녕하세요. 허윤회입니다.</div>
-                <button id="mypage_left_profile_button">프로필 수정</button>
-                <div id="mypage_left_relationship">
-                    <div id="mypage_left_relationship_choice">
-                        <div id="mypage_left_relationship_choice_follower">10 follower</div>
-                        <div id="mypage_left_relationship_choice_following">12 following</div>
-                    </div>
-                    <div id="mypage_left_relationship_choice_follower_list">
-                        <br>팔로우 명단<br>
-                        <br>{{허윤회}}
-                        <br>{{follower}}
-                        <br>{{허윤회}}
-                        <br>{{follower}}
-                    </div>
-                    <div id="mypage_left_relationship_choice_following_list">
-                        <br>팔로잉 명단<br>
-                        <br>{{following}}
-                        <br>{{허윤회}}
-                        <br>{{follower}}
-                        <br>{{허윤회}}
-                    </div>
-                </div>
+
+    <div id="study_make">
+        <div id="study_make_study_name" style="display: flex; align-items: center;">
+            <h2>스터디룸 이름</h2>
+            <input type="text">
+        </div>
+        <div id="study_make_study_type" style="display: flex; align-items: center;">
+            <h2>어떤 분야의 스터디를 만드실 건가요?</h2>
+            <select>
+                <option>어학 - 토익</option>
+                <option>어학 - OPIc</option>
+                <option>어학 - 중국어</option>
+                <option>전공 - 경영대</option>
+                <option>전공 - 공과대</option>
+            </select>
+        </div>
+        <div id="study_make_introduce">
+            <h2>스터디 한줄 소개</h2>
+            <textarea></textarea>
+        </div>
+        <div id="study_make_participant_option">
+            <h2>어떤 사람들과 함께 하길 원하시나요?</h2>
+            <textarea></textarea>
+        </div>
+        <div id="study_make_participant_number" style="display: flex; align-items: center;">
+            <h2>모집 인원</h2>
+            <input type="number">
+            ~
+            <input type="number">
+        </div>
+        <div id="study_make_duration" style="display: flex; align-items: center;">
+            <h2>활동기간</h2>
+            <input type="date">
+            ~
+            <input type="date">
+        </div>
+        <div id="study_make_participant_option">
+            <h2>스터디 정보</h2>
+            <textarea></textarea>
+        </div>
+        <div id="study_make_study_style">
+            <h2>스터디 성격</h2>
+            <label>난이도</label>
+            <select>
+                <option>쉬움</option>
+                <option>보통</option>
+                <option>어려움</option>
+            </select>
+            <div id = "study_make_hashtag">
+                <label>성격</label>
+                <div id="study_find_second_container_big_tag">대태그5</div>
+                <div id="study_find_second_container_big_tag">대태그6</div>
+                <div id="study_find_second_container_big_tag">대태그7</div>
+                <div id="study_find_second_container_big_tag">대태그8</div>
             </div>
         </div>
-        <div id="mypage_right">
-            <div id="mypage_right_title">MY 스터디</div>
-            <div id="mypage_right_container">
-                <div class="mypage_right_container">
-                    <a href="">
-                        <div id="mypage_right_container_box">
-                            <img src="mutstudy_logo.jpg">
-                        </div>
-                    </a>
-                    <div id="mypage_right_container_boxname">[[스터디명]]</div>
-                </div>
-                <div class="mypage_right_container">
-                    <a href="">
-                        <div id="mypage_right_container_box">
-                            <img src="mutstudy_logo.jpg">
-                        </div>
-                    </a>
-                    <div id="mypage_right_container_boxname">[[스터디명]]</div>
-                </div>
-                <div class="mypage_right_container">
-                    <a href="">
-                        <div id="mypage_right_container_box">
-                            <img src="mutstudy_logo.jpg">
-                        </div>
-                        <div id="mypage_right_container_boxname">[[스터디명]]</div>
-                    </a>
-                </div>
-                <div class="mypage_right_container">
-                    <a href="">
-                        <div id="mypage_right_container_box">
-                            <img src="mutstudy_logo.jpg">
-                        </div>
-                        <div id="mypage_right_container_boxname">[[스터디명]]</div>
-                    </a>
-                </div>
-                <div class="mypage_right_container">
-                    <a href="">
-                        <div id="mypage_right_container_box">
-                            <img src="mutstudy_logo.jpg">
-                        </div>
-                        <div id="mypage_right_container_boxname">[[스터디명]]</div>
-                    </a>
-                </div>
-            </div>
+        <div id="study_make_study_representer" style="display: flex; align-items: center;">
+            <h2>대표자 연락처</h2>
+            <input type="text">
         </div>
     </div>
+
     <div id="friend_button"><i class="fas fa-users fa-2x"></i></div>
     <div id="content_friend">
         <div id="content_friend_title">나의 스터디 친구들</div>
@@ -157,6 +143,5 @@
         </div>
     </div>
     <script src="main.js" crossorigin="anonymous"></script>
-    <script src="mypage.js" crossorigin="anonymous"></script>
 </body>
 </html>
