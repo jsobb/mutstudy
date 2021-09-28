@@ -4,17 +4,17 @@ from django.shortcuts import render
 def showmain(request):
     return render(request, 'main/index.html')
 
-def showabout(request):
+def about(request):
     return render(request, 'main/about.html')
 
-def showcontact(request):
+def contact(request):
     return render(request, 'main/contact.html')
 
-def showpricing(request):
+def pricing(request):
     return render(request, 'main/pricing.html')
 
-def showworksingle(request):
+def worksingle(request):
     return render(request, 'main/work-single.html')
 
-def showwork(request):
+def work(request):
     return render(request, 'main/work.html')
